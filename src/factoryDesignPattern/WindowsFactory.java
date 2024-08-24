@@ -19,4 +19,11 @@ public class WindowsFactory implements GUIFactory{
 		return new WindowsScrollBar();
 	}
 
+	@Override
+	public TextBox createTextBox() {
+		// TODO Auto-generated method stub
+		return new WindowsTextBox();
+	}
+
+	
 }

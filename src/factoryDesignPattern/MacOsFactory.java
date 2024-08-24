@@ -18,4 +18,10 @@ public class MacOsFactory implements GUIFactory{
 	{
 		return new MacOsScrollBar();
 	}
+	
+	@Override
+	public TextBox createTextBox()
+	{
+		return new MacOsTextBox();
+	}
 }

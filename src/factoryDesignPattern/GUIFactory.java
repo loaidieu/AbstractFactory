@@ -4,4 +4,5 @@ public interface GUIFactory {
 	Button createButton();
 	CheckBox createCheckBox();
 	ScrollBar createScrollBar();
+	TextBox createTextBox();
 }
